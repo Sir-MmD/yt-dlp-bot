@@ -38,6 +38,8 @@ You can run `yt_dlp_tgbot.sh` in `tmux` to prevent session termination and possi
 
 The `yt_dlp_tgbot.sh` assumes that the  `yt_dlp_tgbot.py` is located on `/root`. You may need to change that.
 
+## Supported Websites:
+https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
 ## Credits:
 ###### YT-DLP: https://github.com/yt-dlp/yt-dlp
 ###### Pyrogram: https://github.com/pyrogram/pyrogram
