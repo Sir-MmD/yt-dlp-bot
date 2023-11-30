@@ -18,16 +18,16 @@ Use @BotFather on telegram to create and get BOT TOKEN
 ### Step 5:
 Open `yt_dlp_tgbot.py` with your text editor and replace `App_Title` and `API_ID` and `API_HASH` and `BOT_TOKEN` with your own information
 ## Install required packages:
-`$ sudo apt update && apt install python3-pip -y && pip install pyrogram TgCrypto`
+`$ sudo apt update && apt install python3-pip tmux -y && pip install pyrogram TgCrypto`
 ###Start the bot:
 `$ python3 yt_dlp_tgbot.py`
 
 ## Important Tips
 
 ### Allowed users only:
-You can make the bot to operate for only users that you want. You should place USER IDs in line 8 and comment out these lines: 28, 29, 108, 109
+You can make the bot to operate for only users that you want. You should place USER IDs in line 8 and uncomment these lines: 28, 29, 108, 109
 ### Upload file up to 4GB:
-For this should get API from an account which has Telegram Premium subscription and then change `if file_size > 2 * 1024 * 1024 * 1024:` on line 154 to `if file_size > 4 * 1024 * 1024 * 1024:`
+For this you should get the API from an account which has an active Telegram Premium subscription and then change `if file_size > 2 * 1024 * 1024 * 1024:` on line 154 to `if file_size > 4 * 1024 * 1024 * 1024:`
 ### Prevent session termination and possible crashes:
 You can run `yt_dlp_tgbot.sh` in `tmux` to prevent session termination and possible crashes:
 `$ tmux`
