@@ -18,7 +18,7 @@ Use @BotFather on telegram to create and get BOT TOKEN
 ### Step 5:
 Open `yt_dlp_tgbot.py` with your text editor and replace `App_Title` and `API_ID` and `API_HASH` and `BOT_TOKEN` with your own information
 ## Install required packages:
-`$ sudo apt update && apt install python3-pip tmux -y && pip install pyrogram TgCrypto`
+`$ sudo apt update && apt install python3-pip tmux -y && pip install yt-dlp pyrogram TgCrypto`
 ###Start the bot:
 `$ python3 yt_dlp_tgbot.py`
 
