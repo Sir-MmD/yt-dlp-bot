@@ -1,3 +1,4 @@
+#v1.0
 from pyrogram import Client, filters
 from pyrogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 import yt_dlp
