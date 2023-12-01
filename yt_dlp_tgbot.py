@@ -151,8 +151,8 @@ def download_video(client, message):
                         full_path = os.path.join(user_folder, file)
                         file_size = os.path.getsize(full_path)
                         message.reply_text("Download finished, sending the video to you...", reply_markup=ReplyKeyboardRemove())
-                        # Check if the file size is greater than 4GB
-                        if file_size > 4 * 1024 * 1024 * 1024:  # 4GB in bytes
+                        # Check if the file size is greater than 2GB
+                        if file_size > 2 * 1024 * 1024 * 1024:  # 2GB in bytes
                             message.reply_text("Error: The downloaded video is too large to be sent via Telegram.")
                             os.remove(full_path)  # Remove the large file
                             break
